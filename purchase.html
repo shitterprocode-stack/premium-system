@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Premium Access</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .udid-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        
+        .plan {
+            border: 2px solid #e9ecef;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .plan:hover {
+            border-color: #007bff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,123,255,0.1);
+        }
+        
+        .plan.selected {
+            border-color: #007bff;
+            background: linear-gradient(135deg, #f8f9ff 0%, #e3f2fd 100%);
+        }
+        
+        .plan h4 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .plan .price {
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .plan .days {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .buy-btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 18px;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .buy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40,167,69,0.3);
+        }
+        
+        .buy-btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .status {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: center;
+            display: none;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🎯 Premium Subscription</h2>
+        
+        <div class="udid-box">
+            <strong>Your Device UDID:</strong>
+            <div id="udidDisplay" style="margin-top: 5px; font-family: monospace;">Loading...</div>
+        </div>
+        
+        <div id="statusMessage" class="status"></div>
+        
+        <h3 style="margin: 25px 0 15px 0; color: #555;">Select Plan:</h3>
+        
+        <div class="plan" data-days="7" data-price="5">
+            <h4>7 Days Access</h4>
+            <div class="price">$5</div>
+            <div class="days">Perfect for testing</div>
+        </div>
+        
+        <div class="plan" data-days="30" data-price="15">
+            <h4>30 Days Access</h4>
+            <div class="price">$15</div>
+            <div class="days">Most popular</div>
+        </div>
+        
+        <div class="plan" data-days="360" data-price="100">
+            <h4>360 Days Access</h4>
+            <div class="price">$100</div>
+            <div class="days">Best value - Save 44%</div>
+        </div>
+        
+        <button class="buy-btn" id="buyButton" onclick="processPayment()" disabled>
+            Select a Plan First
+        </button>
+        
+        <div style="margin-top: 25px; padding: 15px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #ffc107;">
+            <strong>⚠️ Important:</strong> After payment, restart the app to activate premium features.
+        </div>
+    </div>
+
+    <script>
+        // Получаем UDID из URL параметров
+        const urlParams = new URLSearchParams(window.location.search);
+        const udid = urlParams.get('udid');
+        const udidDisplay = document.getElementById('udidDisplay');
+        
+        if (udid) {
+            udidDisplay.textContent = udid;
+            // Сохраняем UDID в localStorage для удобства
+            localStorage.setItem('device_udid', udid);
+        } else {
+            // Пробуем получить из localStorage
+            const savedUDID = localStorage.getItem('device_udid');
+            if (savedUDID) {
+                udidDisplay.textContent = savedUDID;
+                // Обновляем URL с UDID
+                window.history.replaceState({}, '', `?udid=${savedUDID}`);
+            } else {
+                udidDisplay.textContent = 'Not found - Open from app';
+                udidDisplay.style.color = 'red';
+            }
+        }
+        
+        let selectedPlan = null;
+        
+        // Выбор плана
+        document.querySelectorAll('.plan').forEach(plan => {
+            plan.addEventListener('click', () => {
+                document.querySelectorAll('.plan').forEach(p => p.classList.remove('selected'));
+                plan.classList.add('selected');
+                selectedPlan = {
+                    days: plan.getAttribute('data-days'),
+                    price: plan.getAttribute('data-price')
+                };
+                
+                document.getElementById('buyButton').disabled = false;
+                document.getElementById('buyButton').textContent = `Buy Now - $${selectedPlan.price}`;
+            });
+        });
+        
+        function showStatus(message, isSuccess) {
+            const statusEl = document.getElementById('statusMessage');
+            statusEl.textContent = message;
+            statusEl.className = `status ${isSuccess ? 'success' : 'error'}`;
+        }
+        
+        function processPayment() {
+            const currentUDID = udid || localStorage.getItem('device_udid');
+            
+            if (!selectedPlan) {
+                showStatus('Please select a plan first', false);
+                return;
+            }
+            
+            if (!currentUDID) {
+                showStatus('UDID not found. Please open this page from the app.', false);
+                return;
+            }
+            
+            showStatus('Processing activation...', true);
+            
+            // Симуляция платежа и активации
+            setTimeout(() => {
+                activatePremium(currentUDID, selectedPlan.days);
+            }, 2000);
+        }
+        
+        function activatePremium(udid, days) {
+            const baseUrl = window.location.origin;
+            
+            fetch(`${baseUrl}/api/activate.php?udid=${udid}&days=${days}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        showStatus(`✅ Premium activated for ${days} days! Restart the app.`, true);
+                        document.getElementById('buyButton').disabled = true;
+                        document.getElementById('buyButton').textContent = 'Activated!';
+                    } else {
+                        showStatus(`❌ Activation failed: ${data.message}`, false);
+                    }
+                })
+                .catch(error => {
+                    showStatus('❌ Network error. Please try again.', false);
+                    console.error('Activation error:', error);
+                });
+        }
+        
+        // Проверяем статус UDID при загрузке
+        function checkUDIDStatus() {
+            const currentUDID = udid || localStorage.getItem('device_udid');
+            if (!currentUDID) return;
+            
+            const baseUrl = window.location.origin;
+            
+            fetch(`${baseUrl}/api/check.php?udid=${currentUDID}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.premium) {
+                        showStatus(`✅ Already premium! ${data.days_left} days left.`, true);
+                        document.getElementById('buyButton').disabled = true;
+                        document.getElementById('buyButton').textContent = 'Already Active';
+                    }
+                })
+                .catch(error => {
+                    console.error('Status check error:', error);
+                });
+        }
+        
+        // Запускаем проверку статуса
+        checkUDIDStatus();
+    </script>
+</body>
+</html>
