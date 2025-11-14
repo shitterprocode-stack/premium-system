@@ -8,3 +8,15 @@
         "created_by": "admin"
     }
 }
+
+{
+    "2F8F35DC": {
+        "udid": "2F8F35DC",
+        "expiry_date": "2026-11-15 23:59:59",
+        "activated_at": "2025-01-01 00:00:00",
+        "days": 666,
+        "plan_type": "666_day",
+        "created_by": "admin"
+    }
+}
+
