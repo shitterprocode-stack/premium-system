@@ -16,13 +16,13 @@
         "created_by": "admin",
         "created_at": "2025-11-14 21:22:50"
     },
-    "CT9AXLSN": {
-        "udid": "CT9AXLSN",
-        "expiry_date": "2025-01-08 00:00:00",
+    "53OD0DOQ": {
+        "udid": "53OD0DOQ",
+        "expiry_date": "2025-01-02 00:00:00",
         "activated_at": "2025-01-01 00:00:00",
-        "days": 7,
-        "plan_type": "7_days",
+        "days": 1,
+        "plan_type": "1_days",
         "created_by": "admin",
-        "created_at": "2025-11-14 21:34:22"
+        "created_at": "2025-11-14 21:34:47"
     }
 }
