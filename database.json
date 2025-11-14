@@ -1,9 +1,9 @@
 {
     "40657F29": {
         "udid": "40657F29",
-        "expiry_date": "2025-12-31 23:59:59",
-        "activated_at": "2024-11-14 12:00:00",
-        "days": 360,
-        "plan_type": "360_days"
+        "expiry_date": "2025-11-15 23:59:59",
+        "activated_at": "2025-11-14 20:15:00",
+        "days": 1,
+        "plan_type": "1_day"
     }
 }
