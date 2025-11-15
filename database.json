@@ -1,13 +1,4 @@
 {
-    "I4SS30RT": {
-        "udid": "I4SS30RT",
-        "expiry_date": "2025-11-16 00:00:00",
-        "activated_at": "2025-11-14 00:00:00",
-        "days": 1,
-        "plan_type": "1_days",
-        "created_by": "admin",
-        "created_at": "2025-11-15 10:37:23"
-    },
     "LEPBKHI1": {
         "udid": "LEPBKHI1",
         "expiry_date": "2025-12-15 00:00:00",
@@ -16,14 +7,5 @@
         "plan_type": "30_days",
         "created_by": "admin",
         "created_at": "2025-11-15 11:04:52"
-    },
-    "YTYY9VKR": {
-        "udid": "YTYY9VKR",
-        "expiry_date": "2025-01-02 00:00:00",
-        "activated_at": "2025-01-01 00:00:00",
-        "days": 1,
-        "plan_type": "1_days",
-        "created_by": "admin",
-        "created_at": "2025-11-15 12:05:19"
     }
 }
