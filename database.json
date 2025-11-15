@@ -34,5 +34,17 @@
         "plan_type": "7_days",
         "created_by": "admin",
         "created_at": "2025-11-15 13:29:19"
+    },
+    "K7XRLYVM": {
+        "udid": "K7XRLYVM",
+        "expiry_date": "2025-11-16 13:38:35",
+        "activated_at": "2025-11-15 13:38:35",
+        "days": 1,
+        "plan_type": "1_days",
+        "created_by": "admin",
+        "created_at": "2025-11-15 13:38:35",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
