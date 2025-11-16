@@ -160,5 +160,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "I7Q4SY9G": {
+        "udid": "I7Q4SY9G",
+        "expiry_date": "2025-11-17 21:00:40",
+        "activated_at": "2025-11-16 21:00:40",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "89.208.227.64",
+        "last_access_ip": "89.208.227.64",
+        "last_access": "2025-11-16 21:00:40",
+        "created_by": "admin",
+        "created_at": "2025-11-16 21:00:40",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
