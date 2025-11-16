@@ -9,20 +9,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit(0);
 }
 
-// Функция для получения реального IP пользователя
-function getClientIP() {
-    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-        return $_SERVER['HTTP_CLIENT_IP'];
-    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-        return $_SERVER['HTTP_X_FORWARDED_FOR'];
-    } else {
-        return $_SERVER['REMOTE_ADDR'];
-    }
-}
-
 $udid = $_GET['udid'] ?? '';
 $days = intval($_GET['days'] ?? 0);
-$client_ip = getClientIP();
+$client_ip = $_GET['ip'] ?? ''; // IP из параметра запроса
+
+// Если IP не передан, используем реальный IP клиента
+if (empty($client_ip)) {
+    function getClientIP() {
+        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+            return $_SERVER['HTTP_CLIENT_IP'];
+        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            return $_SERVER['HTTP_X_FORWARDED_FOR'];
+        } else {
+            return $_SERVER['REMOTE_ADDR'];
+        }
+    }
+    $client_ip = getClientIP();
+}
 
 if (empty($udid) || $days <= 0) {
     http_response_code(400);
