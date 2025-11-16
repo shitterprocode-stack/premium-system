@@ -19,10 +19,10 @@ if (empty($udid) || $days <= 0) {
 }
 
 // Валидация дней
-$allowed_days = [7, 30, 360];
+$allowed_days = [1, 7, 30, 360];
 if (!in_array($days, $allowed_days)) {
     http_response_code(400);
-    echo json_encode(['success' => false, 'message' => 'Invalid days value. Allowed: 7, 30, 360']);
+    echo json_encode(['success' => false, 'message' => 'Invalid days value. Allowed: 1, 7, 30, 360']);
     exit;
 }
 
