@@ -177,17 +177,17 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "HNCBCX2C": {
-        "udid": "HNCBCX2C",
-        "expiry_date": "2025-11-17 21:28:43",
-        "activated_at": "2025-11-16 21:28:43",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "5.188.206.10",
-        "last_access_ip": "5.188.206.10",
-        "last_access": "2025-11-16 21:28:43",
+    "78UICNHX": {
+        "udid": "78UICNHX",
+        "expiry_date": "2026-11-11 21:31:36",
+        "activated_at": "2025-11-16 21:31:36",
+        "days": 360,
+        "plan_type": "360_days",
+        "registered_ip": "92.255.178.217",
+        "last_access_ip": "92.255.178.217",
+        "last_access": "2025-11-16 21:31:36",
         "created_by": "admin",
-        "created_at": "2025-11-16 21:28:43",
+        "created_at": "2025-11-16 21:31:36",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
