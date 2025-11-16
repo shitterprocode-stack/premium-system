@@ -11,10 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 $udid = $_GET['udid'] ?? '';
 $days = intval($_GET['days'] ?? 0);
-$client_ip = $_GET['ip'] ?? ''; // IP из параметра запроса
+$ip_param = $_GET['ip'] ?? ''; // IP из параметра (от бота)
 
-// Если IP не передан, используем реальный IP клиента
-if (empty($client_ip)) {
+// Если IP передан в параметре - используем его, иначе реальный IP клиента
+if (!empty($ip_param)) {
+    $client_ip = $ip_param;
+} else {
     function getClientIP() {
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
             return $_SERVER['HTTP_CLIENT_IP'];
