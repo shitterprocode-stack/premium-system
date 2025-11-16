@@ -72,5 +72,17 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "87ECYVA2": {
+        "udid": "87ECYVA2",
+        "expiry_date": "2025-11-17 09:42:32",
+        "activated_at": "2025-11-16 09:42:32",
+        "days": 1,
+        "plan_type": "1_days",
+        "created_by": "admin",
+        "created_at": "2025-11-16 09:42:32",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
