@@ -96,5 +96,17 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "6DRA0H6K": {
+        "udid": "6DRA0H6K",
+        "expiry_date": "2026-11-11 11:22:19",
+        "activated_at": "2025-11-16 11:22:19",
+        "days": 360,
+        "plan_type": "360_days",
+        "created_by": "admin",
+        "created_at": "2025-11-16 11:22:19",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
