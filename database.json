@@ -176,5 +176,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "HNCBCX2C": {
+        "udid": "HNCBCX2C",
+        "expiry_date": "2025-11-17 21:28:43",
+        "activated_at": "2025-11-16 21:28:43",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "5.188.206.10",
+        "last_access_ip": "5.188.206.10",
+        "last_access": "2025-11-16 21:28:43",
+        "created_by": "admin",
+        "created_at": "2025-11-16 21:28:43",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
