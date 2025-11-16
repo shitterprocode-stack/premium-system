@@ -34,6 +34,30 @@ if (file_exists($database_file)) {
     $data = json_decode($json_content, true) ?? [];
 }
 
+// Функция для очистки просроченных ключей
+function cleanupExpiredKeys(&$data) {
+    $current_time = time();
+    $keys_to_remove = [];
+    
+    foreach ($data as $udid => $record) {
+        if (isset($record['expiry_date'])) {
+            $expiry_timestamp = strtotime($record['expiry_date']);
+            if ($expiry_timestamp <= $current_time) {
+                $keys_to_remove[] = $udid;
+            }
+        }
+    }
+    
+    foreach ($keys_to_remove as $udid_to_remove) {
+        unset($data[$udid_to_remove]);
+    }
+    
+    return count($keys_to_remove);
+}
+
+// Очищаем просроченные ключи перед добавлением нового
+$cleaned_count = cleanupExpiredKeys($data);
+
 // Устанавливаем дату окончания
 $expiry_date = date('Y-m-d H:i:s', strtotime("+$days days"));
 
@@ -52,11 +76,12 @@ if (file_put_contents($database_file, json_encode($data, JSON_PRETTY_PRINT))) {
         'success' => true, 
         'message' => 'Premium activated successfully!',
         'expiry_date' => $expiry_date,
-        'days' => $days
+        'days' => $days,
+        'cleaned_expired' => $cleaned_count
     ]);
     
     // Логируем активацию
-    file_put_contents('../logs.txt', date('Y-m-d H:i:s') . " - ACTIVATE - UDID: $udid, Days: $days, Expiry: $expiry_date\n", FILE_APPEND);
+    file_put_contents('../logs.txt', date('Y-m-d H:i:s') . " - ACTIVATE - UDID: $udid, Days: $days, Expiry: $expiry_date, Cleaned: $cleaned_count expired keys\n", FILE_APPEND);
 } else {
     http_response_code(500);
     echo json_encode(['success' => false, 'message' => 'Failed to save database']);
