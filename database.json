@@ -206,20 +206,5 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
-    },
-    "SCO3MEH9": {
-        "udid": "SCO3MEH9",
-        "expiry_date": "2025-11-24 13:59:43",
-        "activated_at": "2025-11-17 13:59:43",
-        "days": 7,
-        "plan_type": "7_days",
-        "registered_ip": "95.165.139.231",
-        "last_access_ip": "95.165.139.231",
-        "last_access": "2025-11-17 13:59:43",
-        "created_by": "admin",
-        "created_at": "2025-11-17 13:59:43",
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0
     }
 }
