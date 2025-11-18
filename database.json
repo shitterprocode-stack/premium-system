@@ -1,12 +1,12 @@
 {
-    "A3LYHJ57": {
-        "udid": "A3LYHJ57",
+    "ATF08SO9": {
+        "udid": "ATF08SO9",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "79.164.82.156",
-        "last_access_ip": "79.164.82.156",
+        "registered_ip": "77.234.203.91",
+        "last_access_ip": "77.234.203.91",
         "created_by": "admin",
-        "created_at": "2025-11-18 19:47:38",
+        "created_at": "2025-11-18 19:48:24",
         "activated_at": null,
         "expiry_date": null,
         "devices_used": 0,
