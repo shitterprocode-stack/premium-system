@@ -776,5 +776,20 @@
         "max_devices": 1,
         "reset_count": 0,
         "status": "not_activated"
+    },
+    "17SHCYVH": {
+        "udid": "17SHCYVH",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "37.128.201.45",
+        "last_access_ip": "37.128.201.45",
+        "created_by": "admin",
+        "created_at": "2025-11-18 18:52:17",
+        "activated_at": null,
+        "expiry_date": null,
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0,
+        "status": "not_activated"
     }
 }
