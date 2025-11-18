@@ -762,14 +762,14 @@
         "reset_count": 0,
         "status": "not_activated"
     },
-    "M95AON5S": {
-        "udid": "M95AON5S",
+    "PBXTK8RG": {
+        "udid": "PBXTK8RG",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "80.250.93.201",
-        "last_access_ip": "80.250.93.201",
+        "registered_ip": "45.8.157.123",
+        "last_access_ip": "45.8.157.123",
         "created_by": "admin",
-        "created_at": "2025-11-18 18:42:03",
+        "created_at": "2025-11-18 18:42:51",
         "activated_at": null,
         "expiry_date": null,
         "devices_used": 0,
