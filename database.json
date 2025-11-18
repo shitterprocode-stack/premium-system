@@ -1,12 +1,12 @@
 {
-    "B120HTQS": {
-        "udid": "B120HTQS",
+    "A3LYHJ57": {
+        "udid": "A3LYHJ57",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "85.143.214.78",
-        "last_access_ip": "85.143.214.78",
+        "registered_ip": "79.164.82.156",
+        "last_access_ip": "79.164.82.156",
         "created_by": "admin",
-        "created_at": "2025-11-18 19:47:25",
+        "created_at": "2025-11-18 19:47:38",
         "activated_at": null,
         "expiry_date": null,
         "devices_used": 0,
