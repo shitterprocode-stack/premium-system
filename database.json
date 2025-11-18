@@ -507,36 +507,6 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "21FPSV16": {
-        "udid": "21FPSV16",
-        "expiry_date": "2025-11-18 19:06:31",
-        "activated_at": "2025-11-17 19:06:31",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "185.32.216.177",
-        "last_access_ip": "185.32.216.177",
-        "last_access": "2025-11-17 19:06:31",
-        "created_by": "admin",
-        "created_at": "2025-11-17 19:06:31",
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0
-    },
-    "03T1O2NB": {
-        "udid": "03T1O2NB",
-        "expiry_date": "2025-11-18 19:16:14",
-        "activated_at": "2025-11-17 19:16:14",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "80.250.93.201",
-        "last_access_ip": "80.250.93.201",
-        "last_access": "2025-11-17 19:16:14",
-        "created_by": "admin",
-        "created_at": "2025-11-17 19:16:14",
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0
-    },
     "ZV216OKD": {
         "udid": "ZV216OKD",
         "days": 7,
