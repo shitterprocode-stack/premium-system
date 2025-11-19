@@ -1,20 +1,17 @@
 {
-    "O39ZADFA": {
-        "udid": "O39ZADFA",
-        "expiry_date": "2025-11-20 16:36:20",
-        "activated_at": "2025-11-19 16:36:20",
+    "DYBK45MT": {
+        "udid": "DYBK45MT",
+        "expiry_date": "2025-11-20 22:07:18",
+        "activated_at": "2025-11-19 22:07:18",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "88.201.167.43",
-        "last_access_ip": "88.201.167.43",
-        "last_access": "2025-11-19 16:36:20",
+        "registered_ip": "195.138.83.144",
+        "last_access_ip": "195.138.83.144",
+        "last_access": "2025-11-19 22:07:18",
         "created_by": "admin",
-        "created_at": "2025-11-19 16:36:20",
+        "created_at": "2025-11-19 22:07:18",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
-    },
-  
-     
     }
 }
