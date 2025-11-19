@@ -15,5 +15,20 @@
         "max_devices": 1,
         "reset_count": 0
     }
+    "44WI5JGN": {
+        "udid": "44WI5JGN",
+        "expiry_date": "2025-11-20 20:04:07",
+        "activated_at": "2025-11-19 20:04:07",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "188.163.79.152",
+        "last_access_ip": "188.163.79.152",
+        "last_access": "2025-11-19 20:04:07",
+        "created_by": "admin",
+        "created_at": "2025-11-19 20:04:07",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
+    },
 
 }
