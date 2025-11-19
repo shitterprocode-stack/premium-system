@@ -7,12 +7,12 @@
         "plan_type": "1_days",
         "registered_ip": "88.201.167.43",
         "last_access_ip": "88.201.167.43",
-        "last_access": "2025-11-19 16:36:20",
+        "last_access": "2025-11-19 21:11:24",
         "created_by": "admin",
         "created_at": "2025-11-19 16:36:20",
         "devices_used": 0,
         "max_devices": 1,
-        "reset_count": 0
+        "reset_count": 1
     },
     "SFVGKJKQ": {
         "udid": "SFVGKJKQ",
