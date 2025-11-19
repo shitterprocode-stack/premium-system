@@ -44,17 +44,17 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "0CFQUHYN": {
-        "udid": "0CFQUHYN",
-        "expiry_date": "2025-11-20 17:41:31",
-        "activated_at": "2025-11-19 17:41:31",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "93.170.125.88",
-        "last_access_ip": "93.170.125.88",
-        "last_access": "2025-11-19 17:41:31",
+    "YSCWA8IU": {
+        "udid": "YSCWA8IU",
+        "expiry_date": "2025-11-26 17:41:42",
+        "activated_at": "2025-11-19 17:41:42",
+        "days": 7,
+        "plan_type": "7_days",
+        "registered_ip": "91.206.29.133",
+        "last_access_ip": "91.206.29.133",
+        "last_access": "2025-11-19 17:41:42",
         "created_by": "admin",
-        "created_at": "2025-11-19 17:41:31",
+        "created_at": "2025-11-19 17:41:42",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
