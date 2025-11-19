@@ -1,8 +1,9 @@
 {
-    "7T0WFA7G": {
-        "udid": "7T0WFA7G",
+    
+     "7T1WFB7G": {
+        "udid": "7T1WFB7G",
         "expiry_date": "2025-11-20 22:12:00",
-        "activated_at": "2025-11-19 22:12:00",
+        "activated_at": "2025-11-19 20:12:00",
         "days": 1,
         "plan_type": "1_days",
         "registered_ip": "85.143.214.78",
@@ -14,4 +15,5 @@
         "max_devices": 1,
         "reset_count": 0
     }
+}
 }
