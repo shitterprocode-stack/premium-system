@@ -1,34 +1,4 @@
 {
-    "ATF08SO9": {
-        "udid": "ATF08SO9",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "77.234.203.91",
-        "last_access_ip": "77.234.203.91",
-        "created_by": "admin",
-        "created_at": "2025-11-19 13:10:24",
-        "activated_at": null,
-        "expiry_date": null,
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0,
-        "status": "not_activated"
-    },
-    "GPHOKJDN": {
-        "udid": "GPHOKJDN",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "37.128.201.45",
-        "last_access_ip": "37.128.201.45",
-        "created_by": "admin",
-        "created_at": "2025-11-18 20:56:40",
-        "activated_at": null,
-        "expiry_date": null,
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0,
-        "status": "not_activated"
-    },
     "O39ZADFA": {
         "udid": "O39ZADFA",
         "expiry_date": "2025-11-20 16:36:20",
@@ -55,6 +25,21 @@
         "last_access": "2025-11-19 16:39:56",
         "created_by": "admin",
         "created_at": "2025-11-19 16:39:56",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
+    },
+    "TDMDDZ66": {
+        "udid": "TDMDDZ66",
+        "expiry_date": "2025-11-20 16:53:12",
+        "activated_at": "2025-11-19 16:53:12",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "92.255.178.217",
+        "last_access_ip": "92.255.178.217",
+        "last_access": "2025-11-19 16:53:12",
+        "created_by": "admin",
+        "created_at": "2025-11-19 16:53:12",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
