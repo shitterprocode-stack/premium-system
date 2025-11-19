@@ -14,17 +14,17 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "IPL925Y4": {
-        "udid": "IPL925Y4",
-        "expiry_date": "2025-11-20 23:24:11",
-        "activated_at": "2025-11-19 23:24:11",
+    "F9X8Q0Y1": {
+        "udid": "F9X8Q0Y1",
+        "expiry_date": "2025-11-20 23:25:48",
+        "activated_at": "2025-11-19 23:25:48",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "78.138.65.124",
-        "last_access_ip": "78.138.65.124",
-        "last_access": "2025-11-19 23:24:11",
+        "registered_ip": "188.163.79.152",
+        "last_access_ip": "188.163.79.152",
+        "last_access": "2025-11-19 23:25:48",
         "created_by": "admin",
-        "created_at": "2025-11-19 23:24:11",
+        "created_at": "2025-11-19 23:25:48",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
