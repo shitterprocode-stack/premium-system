@@ -58,5 +58,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "GJ2HTX28": {
+        "udid": "GJ2HTX28",
+        "expiry_date": "2025-11-21 00:23:12",
+        "activated_at": "2025-11-20 00:23:12",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "85.209.11.234",
+        "last_access_ip": "85.209.11.234",
+        "last_access": "2025-11-20 00:23:12",
+        "created_by": "admin",
+        "created_at": "2025-11-20 00:23:12",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
