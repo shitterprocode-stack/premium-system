@@ -493,5 +493,50 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "Y5JDVX3O": {
+        "udid": "Y5JDVX3O",
+        "expiry_date": "2025-11-27 21:56:53",
+        "activated_at": "2025-11-20 21:56:53",
+        "days": 7,
+        "plan_type": "7_days",
+        "registered_ip": "62.122.184.77",
+        "last_access_ip": "62.122.184.77",
+        "last_access": "2025-11-20 21:56:53",
+        "created_by": "admin",
+        "created_at": "2025-11-20 21:56:53",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
+    },
+    "VHR8ZTQD": {
+        "udid": "VHR8ZTQD",
+        "expiry_date": "2025-11-27 21:56:53",
+        "activated_at": "2025-11-20 21:56:53",
+        "days": 7,
+        "plan_type": "7_days",
+        "registered_ip": "89.208.227.64",
+        "last_access_ip": "89.208.227.64",
+        "last_access": "2025-11-20 21:56:53",
+        "created_by": "admin",
+        "created_at": "2025-11-20 21:56:53",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
+    },
+    "JU0A7DH8": {
+        "udid": "JU0A7DH8",
+        "expiry_date": "2025-11-27 21:56:53",
+        "activated_at": "2025-11-20 21:56:53",
+        "days": 7,
+        "plan_type": "7_days",
+        "registered_ip": "5.188.206.10",
+        "last_access_ip": "5.188.206.10",
+        "last_access": "2025-11-20 21:56:53",
+        "created_by": "admin",
+        "created_at": "2025-11-20 21:56:53",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
