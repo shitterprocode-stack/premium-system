@@ -149,17 +149,17 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "59NQKQME": {
-        "udid": "59NQKQME",
-        "expiry_date": "2025-11-21 15:29:27",
-        "activated_at": "2025-11-20 15:29:27",
+    "HNX7DL83": {
+        "udid": "HNX7DL83",
+        "expiry_date": "2025-11-21 15:29:33",
+        "activated_at": "2025-11-20 15:29:33",
         "days": 1,
         "plan_type": "1_days",
-        "registered_ip": "95.165.139.231",
-        "last_access_ip": "95.165.139.231",
-        "last_access": "2025-11-20 15:29:27",
+        "registered_ip": "5.188.206.10",
+        "last_access_ip": "5.188.206.10",
+        "last_access": "2025-11-20 15:29:33",
         "created_by": "admin",
-        "created_at": "2025-11-20 15:29:27",
+        "created_at": "2025-11-20 15:29:33",
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
