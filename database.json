@@ -103,5 +103,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "ICWDWYUO": {
+        "udid": "ICWDWYUO",
+        "expiry_date": "2025-11-21 14:59:00",
+        "activated_at": "2025-11-20 14:59:00",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "78.138.65.124",
+        "last_access_ip": "78.138.65.124",
+        "last_access": "2025-11-20 14:59:00",
+        "created_by": "admin",
+        "created_at": "2025-11-20 14:59:00",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
