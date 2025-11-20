@@ -133,5 +133,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "REUT8G9O": {
+        "udid": "REUT8G9O",
+        "expiry_date": "2026-11-15 15:19:22",
+        "activated_at": "2025-11-20 15:19:22",
+        "days": 360,
+        "plan_type": "360_days",
+        "registered_ip": "79.164.82.156",
+        "last_access_ip": "79.164.82.156",
+        "last_access": "2025-11-20 15:19:22",
+        "created_by": "admin",
+        "created_at": "2025-11-20 15:19:22",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
