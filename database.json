@@ -898,5 +898,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "WWK97BEE": {
+        "udid": "WWK97BEE",
+        "expiry_date": "2025-11-23 00:26:14",
+        "activated_at": "2025-11-22 00:26:14",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "89.208.227.64",
+        "last_access_ip": "89.208.227.64",
+        "last_access": "2025-11-22 00:26:14",
+        "created_by": "admin",
+        "created_at": "2025-11-22 00:26:14",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
