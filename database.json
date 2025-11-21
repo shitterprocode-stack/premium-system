@@ -1,19 +1,4 @@
 {
-    "I62F86D8": {
-        "udid": "I62F86D8",
-        "expiry_date": "2026-11-20 23:13:46",
-        "activated_at": "2025-11-18 23:13:46",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "89.208.227.64",
-        "last_access_ip": "89.208.227.64",
-        "last_access": "2025-11-19 23:13:46",
-        "created_by": "admin",
-        "created_at": "2025-11-19 23:13:46",
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0
-    },
     "KY79GIAZ": {
         "udid": "KY79GIAZ",
         "expiry_date": "2025-11-27 09:26:39",
