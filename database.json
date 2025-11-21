@@ -883,5 +883,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "NUUL5UF9": {
+        "udid": "NUUL5UF9",
+        "expiry_date": "2025-11-22 21:34:06",
+        "activated_at": "2025-11-21 21:34:06",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "85.143.214.78",
+        "last_access_ip": "85.143.214.78",
+        "last_access": "2025-11-21 21:34:06",
+        "created_by": "admin",
+        "created_at": "2025-11-21 21:34:06",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
