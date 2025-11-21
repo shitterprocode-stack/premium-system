@@ -973,5 +973,20 @@
         "devices_used": 0,
         "max_devices": 1,
         "reset_count": 0
+    },
+    "VGOGKRBC": {
+        "udid": "VGOGKRBC",
+        "expiry_date": "2025-11-22 17:40:47",
+        "activated_at": "2025-11-21 17:40:47",
+        "days": 1,
+        "plan_type": "1_days",
+        "registered_ip": "87.117.38.199",
+        "last_access_ip": "87.117.38.199",
+        "last_access": "2025-11-21 17:40:47",
+        "created_by": "admin",
+        "created_at": "2025-11-21 17:40:47",
+        "devices_used": 0,
+        "max_devices": 1,
+        "reset_count": 0
     }
 }
