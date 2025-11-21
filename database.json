@@ -89,21 +89,6 @@
         "max_devices": 1,
         "reset_count": 0
     },
-    "5D5VTK7Y": {
-        "udid": "5D5VTK7Y",
-        "expiry_date": "2025-11-21 19:37:01",
-        "activated_at": "2025-11-20 19:37:01",
-        "days": 1,
-        "plan_type": "1_days",
-        "registered_ip": "109.197.184.179",
-        "last_access_ip": "109.197.184.179",
-        "last_access": "2025-11-20 19:37:01",
-        "created_by": "admin",
-        "created_at": "2025-11-20 19:37:01",
-        "devices_used": 0,
-        "max_devices": 1,
-        "reset_count": 0
-    },
     "23497741": {
         "udid": "23497741",
         "expiry_date": "2025-12-20 21:57:38",
